@@ -2,7 +2,7 @@
 
 ```
 module "vpc" {
-  source                 = "git::https://github.com/agmtr/terraform-yandex-vpc.git?ref=v1.0.0"
+  source                 = "git::https://github.com/agmtr/terraform-yandex-vpc.git?ref=<version>"
   create_default_subnets = true
   subnets = {
     test = {
